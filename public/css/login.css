@@ -1,0 +1,87 @@
+body {
+    background: #ff4545; /* Warna latar belakang merah */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+img{
+    height: 200px;
+    top: -58px;
+    position: relative;
+}
+.login {
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.login h1 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.login hr {
+    border: 1px solid #ff4545;
+    width: 50%;
+    margin: 0 auto 1.5rem;
+}
+
+.login p {
+    text-align: left;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.login button {
+    width: 100%;
+    padding: 12px;
+    background: #ff4545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login button:hover {
+    background: #d83d3d;
+}
+
+/* Pengaturan untuk alert/pesan error */
+.alert {
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.star{
+    height: 60px;
+
+}
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
