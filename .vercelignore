@@ -1,1 +1,28 @@
-/vendor
+# Folder dependencies
+node_modules
+vendor
+
+# Build artifacts
+dist
+public/build
+
+# Environment & config
+.env
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+composer.lock
+
+# Laravel cache & logs
+storage/logs
+storage/framework/cache
+storage/framework/sessions
+storage/framework/views
+bootstrap/cache/*.php
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+.idea
+.vscode
